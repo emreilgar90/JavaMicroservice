@@ -1,0 +1,25 @@
+ext {
+    /**
+     * Bu paramatreler libs içinde bağımlılıkların versiyonlarını tanımlar.
+     */
+
+    version = [
+            springBoot:           "2.7.7",
+            lombok    :           "1.18.24",
+            postgreSQL:           "42.5.1"
+
+    ]
+
+    libs =  [
+
+         springBootDataJpa   : "org.springframework.boot:spring-boot-starter-data-jpa:${version.springBoot}",
+         springBoot          : "org.springframework.boot:spring-boot-starter-web:${version.springBoot}",
+         springBootDevTools  : "org.springframework.boot:spring-devtools:${versions.springBoot}",
+         lombok              : "org.projectlombok:lombok:${versions.lombok}",
+         postgreSQL          : "org.postgresql:postgresql:${versions.postgreSQL}" ,
+
+
+
+    ]
+
+}

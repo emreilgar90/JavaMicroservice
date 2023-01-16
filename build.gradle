@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'com.emreilgar'
+version 'v.0.0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
