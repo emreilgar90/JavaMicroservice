@@ -1,2 +1,4 @@
 rootProject.name = 'Java4Microservice-Emre'
+include 'auth-microservice'
+include 'auth-microservice'
 
