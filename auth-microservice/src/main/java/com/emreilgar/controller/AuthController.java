@@ -2,6 +2,7 @@ package com.emreilgar.controller;
 
 import com.emreilgar.dto.request.DoLoginRequestDto;
 import com.emreilgar.dto.request.RegisterRequestDto;
+import com.emreilgar.dto.response.RegisterResponseDto;
 import com.emreilgar.repository.entity.Auth;
 import com.emreilgar.repository.entity.State;
 import com.emreilgar.service.AuthService;
@@ -29,8 +30,8 @@ public class AuthController {
     }
 
     @PostMapping(REGISTER)  //kayıt ol
-    public ResponseEntity<Boolean> register(@RequestBody @Valid RegisterRequestDto dto){
-        authService.save(dto) ; //
+    public ResponseEntity<RegisterResponseDto> register(@RequestBody @Valid RegisterRequestDto dto){
+        authService.save(dto) ;
         return ResponseEntity.ok(authService.save(dto));
     }
 

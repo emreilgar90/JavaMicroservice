@@ -37,12 +37,12 @@ allprojects{
         annotationProcessor libs.lombok
         implementation libs.swaggerui
         implementation libs.springBootValidation
-        /*implementation libs.mapstruct
+        implementation libs.mapstruct
         annotationProcessor libs.mapstructProcessor
         implementation libs.springCloudOpenFeign
         implementation libs.jwt
         implementation libs.springCloudStarterSleuth
-        implementation libs.springCloudStarterZipkin */
+        implementation libs.springCloudStarterZipkin
 
     }
 }
