@@ -1,4 +1,4 @@
-package com.emreilgar.repository.entity;
+package com.emreilgar.repository;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

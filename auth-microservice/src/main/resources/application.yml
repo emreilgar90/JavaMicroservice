@@ -1,13 +1,25 @@
 server:
-  port: 9090
+  port: ${AUTH_PORT}
 
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/DBauthmicroservice
-    username: postgres
-    password: root
+    username: ${AUTH_DB_USERNAME}
+    password: ${AUTH_DB_PASSWORD}
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
     show-sql: true
+
+myapplication:
+  auth:
+    ip: localhost
+    port: ${AUTH_PORT}
+  user:
+    ip: localhost
+    port: 9093
+    feignurl: http://localhost:9093/v1/dev/userprofile
+
+buuygulama:
+  birdeger: "YML dan gelen bir parametre"

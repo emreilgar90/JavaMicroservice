@@ -1,4 +1,4 @@
-package com.emreilgar.repository.entity;
+package com.emreilgar.repository;
 
 public enum State {
     ACTIVE,

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-microservice/Java4MicroService.auth-microservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-microservice/Java4MicroService.auth-microservice.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-microservice/Java4MicroService.product-microservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-microservice/Java4MicroService.product-microservice.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sales-microservice/Java4MicroService.sales-microservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sales-microservice/Java4MicroService.sales-microservice.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/userprofile-microservice/Java4MicroService.userprofile-microservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/userprofile-microservice/Java4MicroService.userprofile-microservice.main.iml" />
+    </modules>
+  </component>
+</project>

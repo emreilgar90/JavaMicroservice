@@ -13,7 +13,6 @@ public class AuthMicroserviceException extends RuntimeException{
 
     public AuthMicroserviceException(ErrorType errorType,String message){
         super(message);   //AUTH microservice'i için özelleştirilmiş hata, bizim hesaplamadığımız hatalar olabilir.
-
         this.errorType=errorType;
     }
 }

@@ -14,10 +14,10 @@ import javax.validation.constraints.Size;
 @Builder
 public class DoLoginRequestDto {
     @NotBlank(message = "Kullanıcı adı boş geçilemez")
-    @Size(min = 0,max = 32)
+    @Size(min = 3,max = 32)
     String username;
     @NotBlank(message = "Kullanıcı şifresi boş geçilemez")
-    @Size(min=8,max=32)
+    @Size(min=8,max=64)
     String password;
 
 }

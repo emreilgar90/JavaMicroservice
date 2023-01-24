@@ -17,6 +17,10 @@ import javax.validation.constraints.Size;
 public class RegisterRequestDto {
     @NotBlank(message = "Kullanıcı adı boş geçilemez")
     @Size(min=3,max=32)
+    /**
+     * BüyükHarf olmamalı, küçük harf olmalı, rakam içerebilir, . nokta olabilir
+     * diğer tüm özel karakterler olamaz.
+     */
     String username;
     @NotBlank(message = "Kullanıcı adı boş geçilemez")
     @Size(min=8,max=64)

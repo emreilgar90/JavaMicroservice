@@ -1,4 +1,5 @@
-rootProject.name = 'Java4Microservice-Emre'
+rootProject.name = 'Java4MicroService'
 include 'auth-microservice'
-include 'auth-microservice'
-
+include 'userprofile-microservice'
+include 'product-microservice'
+include 'sales-microservice'
