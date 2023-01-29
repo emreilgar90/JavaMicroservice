@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-microservice/Java4MicroService.auth-microservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-microservice/Java4MicroService.auth-microservice.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server-git/Java4MicroService.config-server-git.main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server-git/Java4MicroService.config-server-git.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/Java4MicroService.config-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/Java4MicroService.config-server.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-microservice/Java4MicroService.product-microservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-microservice/Java4MicroService.product-microservice.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sales-microservice/Java4MicroService.sales-microservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sales-microservice/Java4MicroService.sales-microservice.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/userprofile-microservice/Java4MicroService.userprofile-microservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/userprofile-microservice/Java4MicroService.userprofile-microservice.main.iml" />

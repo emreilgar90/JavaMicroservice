@@ -1,0 +1,15 @@
+buildscript {
+    dependencies {
+        classpath ("org.springframework.boot:spring-boot-gradle-plugin:${versions.springBoot}")
+    }
+}
+
+dependencies {
+    //config-server build.gradle diğer servicelerin build.gradle'ından farklı unutma !
+    implementation libs.springCloudConfigServer
+    implementation libs.springCloudConfig
+
+
+    //implementation libs.springCloudConfigClient  bu kesinlikle olamayacak !
+    //yml'ı burada olanlarda olacak !
+}

@@ -45,7 +45,7 @@ public class AuthController {
 
     @PostMapping(REGISTER)  //kayıt ol
     public ResponseEntity<RegisterResponseDto> register(@RequestBody @Valid RegisterRequestDto dto){
-        authService.save(dto) ;
+       // authService.save(dto) ;
         System.out.println(BuradaYMLdanDegerAlalim);
         return ResponseEntity.ok(authService.save(dto));
     }

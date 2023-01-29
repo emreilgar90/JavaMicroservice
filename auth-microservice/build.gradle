@@ -1,0 +1,16 @@
+buildscript {
+    dependencies {
+        classpath ("org.springframework.boot:spring-boot-gradle-plugin:${versions.springBoot}")
+    }
+}
+//sadece auth-microservice'e
+dependencies {
+    //libs de adını nasıl geçiyorsa aynı şekilde yazıyoruz !
+    implementation libs.springBootDataJpa
+    implementation libs.postgreSQL
+
+    //auth service'in config server ile iletişime geçmesi için
+    implementation libs.springCloudConfigClient
+
+
+}

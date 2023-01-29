@@ -5,10 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
-@EnableConfigServer         //config server olarak ayağı kalması için muhakkak yazıyoruz.
-public class ConfigServerApplication {
+@EnableConfigServer
+public class ConfigServerGitApplication {
     public static void main(String[] args) {
-
-        SpringApplication.run(ConfigServerApplication.class);
+        SpringApplication.run(ConfigServerGitApplication.class);
     }
 }
